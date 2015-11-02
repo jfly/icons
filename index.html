@@ -10,9 +10,49 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <!-- Cubing Icons -->
-    <link rel="stylesheet" href="https://rawgit.com/cubing/icons/master/cubing-icons.css">
-      
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cubing-icons.css">
+
+    <style>
+      .icons {
+        margin: auto;
+        max-width: 650px;
+        overflow: hidden;
+      }
+
+      .icons-list {
+        padding-left: 0;
+        list-style: none;
+      }
+
+      .icons-list li {
+        float: left;
+        padding: 5px;
+        background-color: #f9f9f9;
+        border: 1px solid #fff;
+        text-align: center;
+        width: 33%;
+        font-size: 12px;
+      }
+
+      .icons-list li:hover {
+        color: #fff;
+        background-color: #563d7c;
+      }
+
+      .icons-list li span {
+        display: block;
+      }
+
+      .icons .cubing-icon {
+        font-size: 28px;
+      }
+
+      @media (min-width: 768px) {
+        .icons-list li {
+          width: 15%;
+        }
+      }
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +87,7 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    
+
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -79,78 +119,132 @@
           <h1 class="text-center" id="icons-list">Cubing Icons List</h1>
           <div class="icons">
             <ul class="icons-list">
-              <li>
-                <span class="cubing-icon icon-clock"></span>
-                <span>cubing-icon icon-clock</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-222"></span>
-                <span>cubing-icon icon-222</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-333"></span>
-                <span>cubing-icon icon-333</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-333bf"></span>
-                <span>cubing-icon icon-333bf</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-333fm"></span>
-                <span>cubing-icon icon-333fm</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-333ft"></span>
-                <span>cubing-icon icon-333ft</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-333mbf"></span>
-                <span>cubing-icon icon-333mbf</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-333oh"></span>
-                <span>cubing-icon icon-333oh</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-444"></span>
-                <span>cubing-icon icon-444</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-444bf"></span>
-                <span>cubing-icon icon-444bf</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-555"></span>
-                <span>cubing-icon icon-555</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-555bf"></span>
-                <span>cubing-icon icon-555bf</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-666"></span>
-                <span>cubing-icon icon-666</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-777"></span>
-                <span>cubing-icon icon-777</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-minx"></span>
-                <span>cubing-icon icon-minx</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-pyram"></span>
-                <span>cubing-icon icon-pyram</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-skewb"></span>
-                <span>cubing-icon icon-skewb</span>
-              </li>
-              <li>
-                <span class="cubing-icon icon-sq1"></span>
-                <span>cubing-icon icon-sq1</span>
-              </li>
+              
+                <li>
+                  <span class="cubing-icon icon-222"></span>
+                  <span>cubing-icon icon-222</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-333"></span>
+                  <span>cubing-icon icon-333</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-333bf"></span>
+                  <span>cubing-icon icon-333bf</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-333fm"></span>
+                  <span>cubing-icon icon-333fm</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-333ft"></span>
+                  <span>cubing-icon icon-333ft</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-333mbf"></span>
+                  <span>cubing-icon icon-333mbf</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-333oh"></span>
+                  <span>cubing-icon icon-333oh</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-444"></span>
+                  <span>cubing-icon icon-444</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-444bf"></span>
+                  <span>cubing-icon icon-444bf</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-555"></span>
+                  <span>cubing-icon icon-555</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-555bf"></span>
+                  <span>cubing-icon icon-555bf</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-666"></span>
+                  <span>cubing-icon icon-666</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-777"></span>
+                  <span>cubing-icon icon-777</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-clock"></span>
+                  <span>cubing-icon icon-clock</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-minx"></span>
+                  <span>cubing-icon icon-minx</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-pyram"></span>
+                  <span>cubing-icon icon-pyram</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-skewb"></span>
+                  <span>cubing-icon icon-skewb</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-sq1"></span>
+                  <span>cubing-icon icon-sq1</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-10e3"></span>
+                  <span>cubing-icon icon-10e3</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-A3d1"></span>
+                  <span>cubing-icon icon-A3d1</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-A4b"></span>
+                  <span>cubing-icon icon-A4b</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-A4b1"></span>
+                  <span>cubing-icon icon-A4b1</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-A4d1"></span>
+                  <span>cubing-icon icon-A4d1</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-A6d"></span>
+                  <span>cubing-icon icon-A6d</span>
+                </li>
+              
+                <li>
+                  <span class="cubing-icon icon-A6e"></span>
+                  <span>cubing-icon icon-A6e</span>
+                </li>
+              
             </ul>
           </div>
         </div>
